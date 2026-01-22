@@ -3,7 +3,7 @@
 This refactors the original script into classes and separates instrument setup, capture, and segmented waveform download/display.
 
 ## Prerequisites
-- Python 3.9+
+- Python 3.12+
 - PyVISA (requires a VISA backend like NI-VISA or Keysight IO Libraries)
 - Optional: NumPy and Matplotlib for plotting
 
