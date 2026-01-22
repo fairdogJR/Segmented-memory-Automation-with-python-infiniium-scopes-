@@ -157,7 +157,7 @@ class ScopeSetupAndViewerGUI:
         conn_frame.pack(side=tk.TOP, fill=tk.X, padx=10, pady=5)
         
         ttk.Label(conn_frame, text="VISA Resource:").pack(side=tk.LEFT, padx=5)
-        self.ip_var = tk.StringVar(value="TCPIP0::10.81.185.89::inst0::INSTR")
+        self.ip_var = tk.StringVar(value="TCPIP0::192.168.0.2::inst0::INSTR")
         self.ip_entry = ttk.Entry(conn_frame, textvariable=self.ip_var, width=40)
         self.ip_entry.pack(side=tk.LEFT, padx=5)
         

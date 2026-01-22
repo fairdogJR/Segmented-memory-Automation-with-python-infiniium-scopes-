@@ -1,0 +1,14 @@
+#this was the recorded command set from the Flexdca scpi recorder
+:SYSTem:DEFault
+:TIMebase:SCALe 2.0000E-10
+:SYSTem:AUToscale
+*OPC?
+:TIMebase:SCALe 1.0000E-10
+:MEASure:OSCilloscope:VAMPlitude
+:MEASure:OSCilloscope:VPP
+:MEASure:OSCilloscope:RISetime
+:MEASure:OSCilloscope:PERiod
+:MEASure:ANNotations:STATe ON
+:SYSTem:AUToscale
+*OPC?
+:TIMebase:SCALe 5.0000E-10

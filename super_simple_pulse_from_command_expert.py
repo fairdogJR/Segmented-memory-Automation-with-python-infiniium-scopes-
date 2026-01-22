@@ -6,9 +6,9 @@ import time
 # start of Untitled
 
 rm = visa.ResourceManager()
-infiniium = rm.open_resource('TCPIP0::10.81.185.89::hislip0::INSTR')
+infiniium = rm.open_resource('TCPIP0::192.168.0.2::hislip0::INSTR')
 infiniium.timeout = 20000
-infiniium.write('*RST')
+#infiniium.write('*RST')
 idn = infiniium.query('*IDN?')
 
 infiniium.write(':CHANnel1:SCALe %G' % (0.2))
